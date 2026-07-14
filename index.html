@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Steve Miller — Stand-Up Comedy</title>
+<meta name="description" content="Steve Miller — storytelling stand-up comedy. Tour dates, bio, videos, and merch.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="index.html" class="wordmark">Steve<span>·</span>Miller</a>
+    <ul class="nav-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="tour.html">Tour</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="store.html">Store</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero-inner">
+    <div class="eyebrow">Stand-Up · Storyteller</div>
+    <h1>Steve Miller</h1>
+    <p class="hero-tagline">A Funny Human Being</p>
+    <p class="hero-sub">
+      Health problems, the news cycle, and a life spent on stages — Steve Miller turns
+      it into stand-up built more like a story than a punchline machine.
+    </p>
+    <div class="hero-actions">
+      <a href="tour.html" class="btn btn-primary">See Tour Dates</a>
+      <a href="about.html" class="btn btn-ghost">About Steve</a>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <div class="label">As Seen &amp; Heard On</div>
+    <h2>On air, on record, on stage.</h2>
+    <p class="name-line">
+      <strong>Sirius/XM</strong> · <strong>Audible</strong> ·
+      <strong>FOX</strong> · <strong>Fringe Festival</strong>
+    </p>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-top">
+      <h2>Book Steve for your club, festival, or private event.</h2>
+      <div class="contact-links">
+        <a href="mailto:[email protected]">[email protected]</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Steve Miller</span>
+      <span>Tampa Bay, FL</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

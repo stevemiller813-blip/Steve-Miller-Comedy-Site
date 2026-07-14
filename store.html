@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Store — Steve Miller</title>
+<meta name="description" content="Shop Steve Miller merch.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="index.html" class="wordmark">Steve<span>·</span>Miller</a>
+    <ul class="nav-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="tour.html">Tour</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="store.html">Store</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="wrap">
+    <div class="eyebrow">Store</div>
+    <h1>Merch, made real.</h1>
+  </div>
+</header>
+
+<section class="section" style="padding-top: 0;">
+  <div class="wrap">
+    <div class="store-panel">
+      <div class="store-panel-copy">
+        <div class="label">Shirts · Hats · More</div>
+        <h3>Everything's over at the shop.</h3>
+        <p>
+          All merch is printed and shipped through the store — browse sizes,
+          colors, and everything else over there.
+        </p>
+      </div>
+      <a href="https://www.stevemiller813.com/store" target="_blank" rel="noopener" class="btn btn-primary">Shop Merch ↗</a>
+    </div>
+    <p class="store-note">Opens the store in a new tab — purchases are handled there, not on this site.</p>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-top">
+      <h2>Book Steve for your club, festival, or private event.</h2>
+      <div class="contact-links">
+        <a href="mailto:[email protected]">[email protected]</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Steve Miller</span>
+      <span>Tampa Bay, FL</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

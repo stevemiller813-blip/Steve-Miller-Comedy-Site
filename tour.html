@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tour Dates — Steve Miller</title>
+<meta name="description" content="Upcoming tour dates and tickets for Steve Miller's stand-up shows.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="index.html" class="wordmark">Steve<span>·</span>Miller</a>
+    <ul class="nav-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="tour.html">Tour</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="store.html">Store</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="wrap">
+    <div class="eyebrow">Tour Dates</div>
+    <h1>Live, and a little unhinged.</h1>
+    <p>That's the show. Grab a ticket and see for yourself.</p>
+  </div>
+</header>
+
+<section class="section" style="padding-top: 0;">
+  <div class="wrap">
+    <div class="ticket-list">
+
+      <a class="ticket" href="https://www.newworldtampa.com/events" target="_blank" rel="noopener">
+        <div class="ticket-date">AUG&nbsp;13–16</div>
+        <div class="ticket-info">
+          <div class="city">Tampa, FL</div>
+          <div class="venue">New World</div>
+        </div>
+        <div class="ticket-cta">Get Tickets ↗</div>
+      </a>
+
+      <a class="ticket" href="https://www.mccurdyscomedy.com/" target="_blank" rel="noopener">
+        <div class="ticket-date">SEP&nbsp;3–5</div>
+        <div class="ticket-info">
+          <div class="city">Sarasota, FL</div>
+          <div class="venue">McCurdy's Comedy Club</div>
+        </div>
+        <div class="ticket-cta">Get Tickets ↗</div>
+      </a>
+
+      <a class="ticket" href="https://www.snappersgrill.com/events#comedy" target="_blank" rel="noopener">
+        <div class="ticket-date">SEP&nbsp;17–20</div>
+        <div class="ticket-info">
+          <div class="city">Palm Harbor, FL</div>
+          <div class="venue">Snappers</div>
+        </div>
+        <div class="ticket-cta">Get Tickets ↗</div>
+      </a>
+
+    </div>
+    <p class="tour-note">Tickets are sold and fulfilled by each venue — tapping a show takes you to their site to purchase.</p>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-top">
+      <h2>Book Steve for your club, festival, or private event.</h2>
+      <div class="contact-links">
+        <a href="mailto:[email protected]">[email protected]</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Steve Miller</span>
+      <span>Tampa Bay, FL</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
