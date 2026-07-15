@@ -559,6 +559,23 @@
     font-size: 17px;
   }
 
+  .page-header-photo {
+    padding: 0;
+    min-height: 56vh;
+    display: flex;
+    align-items: flex-end;
+    background-image:
+      linear-gradient(to top, rgba(28,26,24,1) 8%, rgba(28,26,24,0.6) 45%, rgba(28,26,24,0.3) 68%),
+      url('images/hero.webp');
+    background-size: cover;
+    background-position: center 25%;
+  }
+
+  .page-header-photo .wrap {
+    padding-top: 100px;
+    padding-bottom: 56px;
+  }
+
   /* ---------- VIDEO GRID ---------- */
   .video-grid {
     display: grid;
